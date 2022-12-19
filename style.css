@@ -1,0 +1,85 @@
+body{
+  background : #F0FFFF;
+}
+
+.con img{ display:block; margin:auto;}
+.con video{ display:block; margin:auto;}
+.con iframe{ display:block; margin:auto;}
+
+/*Responsive Image Base*/
+img,video{
+  width:auto;
+  height:auto;
+  max-width:100%;
+}
+
+div img{
+  width:800px;
+}
+
+video{
+  width:1080px;
+}
+
+.navlist li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+nav{
+  text-align:center;
+  font-size:15pt;
+  font-family:Luminari, fantasy;
+}
+
+h1{
+  text-align:center;
+  text-shadow: 1px 1px 2px #74a7dc;
+  font-size:85pt;
+  color:#5978a188;
+  font-family:Marker Felt;
+}
+
+
+
+
+h2{
+  text-align:center;
+  font-size:25pt;
+  color:#7d9ab5;
+  font-family:Chalkduster, fantasy;
+}
+
+h3{
+  text-align:center;
+  font-size:35pt;
+  color:#00020588;
+  font-family:Bradley Hand, cursive;
+}
+
+h5{
+  text-align:center;
+  font-size:13pt;
+  color:#00000088;
+  font-family:Optima, sans-serif;
+}
+
+h6{
+  text-align:center;
+  font-size:10pt;
+  font-family:Times New Roman, Times, serif;
+}
+
+p{
+  font-family:Optima, sans-serif;
+  font-size:15pt;
+  text-align:center;
+}
+
+footer p{
+  text-align:center;
+  font-size:10pt;
+  color:gray;
+}
