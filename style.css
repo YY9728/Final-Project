@@ -75,7 +75,8 @@ h6{
 p{
   font-family:Optima, sans-serif;
   font-size:15pt;
-  text-align:center;
+  max-width:900px;
+  margin:auto;
 }
 
 footer p{
